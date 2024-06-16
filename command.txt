@@ -1,0 +1,1 @@
+Invoke-WebRequest -Uri "http://localhost:7654/api/question" -Method Post -ContentType "application/json" -Body '{  "question": "A sum of money is to be distributed among P,Q, R, and S in the proportion 5 : 2 : 4 : 3,respectively.If R gets R 1000 more than S, what is the share of Q (in Rs)",  "user_id": "umar"}'
